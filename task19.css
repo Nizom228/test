@@ -1,0 +1,48 @@
+.container {
+width: 100vw;
+height: 100vh;
+}
+
+.red-orange {
+  width: 100em;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.red {
+  width: 20%;
+  background-color: red;
+}
+
+.orange {
+  width: 50%;
+  background-color: orange;
+}
+
+
+.blue-block {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+
+.blue {
+  width: 18em;
+  height: 250px;
+  margin: 10px 10px;
+  background-color: rgb(10, 180, 237);
+}
+
+.blue4 {
+  flex: 3;
+}
+
+.green {
+  display: inline-block;
+  width: 20em;
+  height: 300px;
+  background-color: green;
+}
+

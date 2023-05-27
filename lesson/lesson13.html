@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson13</title>
+</head>
+<body>
+  <form> 
+      <div> 
+        <label for="text">Text</label> 
+        <input type="text" name="text" disabled value="asodnlasdmk" id="text" /> 
+      </div> 
+      <div> 
+        <label for="password">Password</label> 
+        <input 
+          type="password" 
+          name="password" 
+          id="password" 
+          placeholder="Enter your password" 
+          required 
+        /> 
+      </div> 
+      <div> 
+        <label for="email">Email</label> 
+        <input type="email" name="email" /> 
+      </div> 
+      <div> 
+        <input type="checkbox" checked /> 
+        <input type="checkbox" /> 
+        <input type="checkbox" /> 
+      </div> 
+      <div> 
+        <input type="radio" name="radio" /> 
+        <input type="radio" name="radio" checked /> 
+        <input type="radio" name="radio" /> 
+      </div> 
+      <div> 
+        <input type="datetime-local" /> 
+      </div> 
+      <div> 
+        <textarea name="" id="" cols="30" rows="10"></textarea> 
+      </div> 
+      <select name="" id=""> 
+        <option value="">BMW</option> 
+        <option value="">Audi</option> 
+        <option value="">Bently</option> 
+      </select> 
+      <button>Click</button> 
+    </form>
+    <script>
+      const btn = document.querySelector('#btn'); 
+      //находим кнопку в html 
+      const input = document.querySelector('#password'); 
+      //находим input в html 
+      
+      //ставим слушаетль событий на кнопку 
+      btn.addEventListener('click', (event) => { 
+      //убераем дефолтное поведение браузера при клике на кнопку 
+      event.preventDefault(); 
+      //ставим условие если тип инпута пароль меняем его на текст 
+      if (input.type === 'password') { 
+        input.type = 'text'; 
+      } else { 
+        //возравщаем изначальное значение 
+        input.type = 'password'; 
+      } 
+      console.log(input); 
+      });
+    </script>
+</body>
+</html>

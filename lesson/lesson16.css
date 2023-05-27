@@ -1,0 +1,39 @@
+.form {
+  position: relative;
+  width: 200px;
+}
+
+.input {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  top: 3px;
+  right: 53px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+
+.absolute {
+  border: red 10px solid;
+  height: 50vh;
+  width: 50vw;
+  /* position: absolute; */
+}

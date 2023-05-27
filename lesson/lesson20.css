@@ -1,0 +1,74 @@
+.main {
+  height: 100vh;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.site-header-block {
+  width: 22%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.site-header-one {
+  width: 100%;
+  height: 80vh;
+  background-color: lightblue;
+}
+
+.site-header-two {
+  width: 100%;
+  height: 20vh;
+  background-color: lightblue;
+}
+
+.main-footer-block {
+  width: 56%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.site-main {
+  width: 100%;
+  height: 80vh;
+  background-color: green;
+}
+
+.site-footer {
+  width: 100%;
+  height: 20vh;
+  background-color: blue;
+}
+
+.widget-area-block {
+  width: 22%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.widget-area-one {
+  width: 100%;
+  height: 80vh;
+  background-color: violet;
+}
+
+.widget-area-two {
+  width: 100%;
+  height: 20vh;
+  background-color: violet;
+}
+@media (max-width: 768px) {
+  .site-header-block {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+}

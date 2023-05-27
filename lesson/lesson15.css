@@ -1,0 +1,85 @@
+.container-one {
+  background-color: rgb(228, 228, 228);
+  height: 120px;
+}
+
+.google-image {
+  margin-left: 20px;
+  width: 600px;
+}
+
+.box-one {
+  margin-left: 25%;
+}
+
+.search-input-title {
+  padding-top: 25px;
+  padding-bottom: 10pxpx;
+  margin-left: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.search-input {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.buttons-div {
+  margin-left: 45px;
+}
+
+.container-two {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 2px;
+  padding: 2px;
+  height: 120px;
+}
+
+.box-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7ee5da;
+  padding: 30px 30px 15px 30px;
+  width: 160px;
+}
+
+.box-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #70ccc2;
+  padding: 30px 30px 15px 30px;
+  width: 160px;
+}
+
+.box-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #62b3aa;
+  padding: 30px 30px 15px 30px;
+  width: 190px;
+}
+
+.updates-text {
+  padding-bottom: 10px;
+}
+
+.subscribe-archive {
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 10px;
+  margin-left: 40%;
+}
+
+.main-container {
+  box-sizing: border-box;
+  width: 700px;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: 300px;
+}
